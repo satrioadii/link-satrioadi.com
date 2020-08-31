@@ -1,7 +1,7 @@
-# Website satrioadi.com
+# Personal link in bio link.satrioadi.com
 
-Personal website of mine (satrio adi) in order to promote my self. I want people
-believe in me about my works in technology.
+My own link tree in order to make it easy navigating between my pages- visit the
+[site](https://link.satrioadi.com)
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ project on a live system.
 If you interested to clone this project, you may use this command.
 
 ```
-git clone https://github.com/satrioadii/website-satrioadi.git
+git clone __this github repo__
 ```
 
 ### Installing
