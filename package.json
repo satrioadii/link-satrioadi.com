@@ -1,0 +1,24 @@
+{
+	"name": "nextjs",
+	"version": "4.0.0",
+	"private": true,
+	"license": "MIT",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.14.0",
+		"@material-ui/core": "latest",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/lab": "^4.0.0-alpha.56",
+		"axios": "^0.20.0",
+		"clsx": "latest",
+		"next": "latest",
+		"prop-types": "latest",
+		"react": "latest",
+		"react-dom": "latest"
+	},
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start -p 6001",
+		"post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+	}
+}
