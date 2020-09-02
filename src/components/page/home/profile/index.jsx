@@ -46,7 +46,7 @@ const HomeProfile = () => {
 						technology.
 					</Typography>
 				</Box>
-				<Box marginBottom="16px">
+				<Box marginBottom="24px">
 					<CustomChip
 						icon={<RoomIcon />}
 						label="Surabaya, Indonesia"

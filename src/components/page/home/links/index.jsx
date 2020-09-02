@@ -11,7 +11,7 @@ const PersonalSiteIcon = () => {
 	return (
 		<i
 			className="fas fa-passport"
-			style={{ color: "#ffffff", fontSize: "28px" }}
+			style={{ color: "#ffffff", fontSize: "36px" }}
 		/>
 	);
 };
@@ -19,7 +19,7 @@ const EmailIcon = () => {
 	return (
 		<i
 			className="far fa-envelope"
-			style={{ color: "#2188ff", fontSize: "28px" }}
+			style={{ color: "#2188ff", fontSize: "36px" }}
 		/>
 	);
 };
@@ -27,7 +27,7 @@ const GithubIcon = () => {
 	return (
 		<i
 			className="fab fa-github"
-			style={{ color: "#2188ff", fontSize: "28px" }}
+			style={{ color: "#2188ff", fontSize: "36px" }}
 		/>
 	);
 };
@@ -35,7 +35,7 @@ const LinkedinIcon = () => {
 	return (
 		<i
 			className="fab fa-linkedin-in"
-			style={{ color: "#2188ff", fontSize: "28px" }}
+			style={{ color: "#2188ff", fontSize: "36px" }}
 		/>
 	);
 };
@@ -67,6 +67,7 @@ const HomeLinks = () => {
 			/>
 			<GlobalButton
 				onClick={() => OpenDialog("Let's talk", HomeEmailDialog)}
+				link="mailto: satrio@satrioadi.com"
 				text="Email"
 				Icon={EmailIcon}
 				variant="outlined"

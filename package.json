@@ -17,7 +17,7 @@
 	"scripts": {
 		"dev": "next",
 		"build": "next build",
-		"start": "next start -p 6001",
+		"start": "next start -p 6002",
 		"post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
 	}
 }
